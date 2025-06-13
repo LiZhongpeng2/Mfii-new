@@ -33,10 +33,6 @@ class MainWindow(QMainWindow):
         #添加到main_layout
         self.main_layout.addLayout(self.top_layout)
 
-
-
-
-
 if __name__ == "__main__":
     app = QApplication([])
     main_window = MainWindow()
