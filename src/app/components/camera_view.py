@@ -11,7 +11,12 @@ class CameraView(QLabel):
         self.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         self.setScaledContents(True)
 
+        self.setFixedSize(800, 450)
+
         self.setText("等待摄像头连接...")
+
+        #可视化
+        self.setStyleSheet("background-color: lightgray; border: 2px solid red;")
 
 
 
