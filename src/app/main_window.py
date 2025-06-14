@@ -25,10 +25,9 @@ class MainWindow(QMainWindow):
         self.init_layout()
 
     def init_layout(self):
-        menu_config_path = "../config/menu_config.json"
 
         #菜单栏
-        menu_view = MenuView(menu_config_path)
+        menu_view = MenuView()
         self.setMenuBar(menu_view)
 
         #顶部水平布局：摄像头画面 图表

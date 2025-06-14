@@ -3,9 +3,12 @@ from PyQt6.QtGui import QAction
 from PyQt6.QtWidgets import QMenuBar, QMenu
 
 class MenuView(QMenuBar):
-    def __init__(self, config_path):
+    def __init__(self):
         super().__init__()
-        self.config_path = config_path
+
+        menu_config_path = "../config/menu_config.json"
+        self.config_path = menu_config_path
+
         self.setup_ui()
 
     def setup_ui(self):
