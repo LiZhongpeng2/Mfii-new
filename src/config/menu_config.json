@@ -9,7 +9,7 @@
     {
       "title": "连接设备",
       "items": [
-        {"text": "连接手机摄像头"},
+        {"text": "连接手机摄像头", "action": "connect2phone"},
         {"text": "连接电脑摄像头"}
       ]
     }

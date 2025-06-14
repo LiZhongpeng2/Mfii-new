@@ -1,6 +1,7 @@
 from PyQt6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QApplication, QHBoxLayout
 from src.app.components.camera_view import CameraView
 from src.app.components.menu_view import MenuView
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
