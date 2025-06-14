@@ -1,4 +1,6 @@
 venv/
 .idea
 **/__pycache__/
-designer.bat
+
+#log
+src/log/logs/
